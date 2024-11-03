@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 1200px;
+    width: 600px;
+    left: 300px;
+    top: 20px;
+    border: 2px solid #2c3328;
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    color:bisque;
+    text-align: center;
+}
+
+.box1{
+    position:fixed;
+    top: 0;
+    right: 0;
+    background-color: #e53314;
+}
+
+.box2{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-70%,-120%);
+    background-color: #468;
+}
+
+/*sera */
+.box3{
+    position: sticky;
+    top: 150px;
+    background-color: darkblue;
+    align-self: baseline;
+}
+
+.box4{
+    background-color: #3a8;
+}
